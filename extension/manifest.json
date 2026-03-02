@@ -1,0 +1,8 @@
+{
+    "manifest_version": 3,
+    "name": "BylbaHub",
+    "version": "1.0",
+    "description": "Web hub with many scripts for websites",
+    "content_scripts": [{"matches": ["<all_urls>"], "js": ["content.js"]}],
+    "icons": {"128": "icon.png"}
+}
