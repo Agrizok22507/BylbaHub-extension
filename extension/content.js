@@ -1,6 +1,5 @@
-fetch('https://bylbahub.onrender.com/static/main.js')
-    .then(r => r.text())
-    .then(code => {
-        const script = new Function(code);
-        script();
-    })
+try {
+    await import('https://bylbahub.onrender.com/static/main.js');
+} catch (error) {
+    console.error('Error: ', error);
+}
