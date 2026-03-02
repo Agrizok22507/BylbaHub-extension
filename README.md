@@ -11,7 +11,7 @@ https://github.com/Agrizok22507/BylbaHub-extension/releases)
 ```
 
 Click on three lines
-![Screenshot1][screenshots/1.png]
+![First-screenshot][screenshots/1.png]
 
 Click on "Extensions and themes"
 ![Screenshot2][screenshots/2.png]
