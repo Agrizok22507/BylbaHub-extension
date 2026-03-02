@@ -5,25 +5,21 @@ Web hub with many scripts for websites
 # Installation
 
 # Firefox
-Save bylbahub.zip from last release :
-```html
-https://github.com/Agrizok22507/BylbaHub-extension/releases)
+Save reposetory locally
+
+git :
+```bash
+git clone https://github.com/Agrizok22507/BylbaHub-extension.git
 ```
 
-Click on three lines
+Go to link and click on "Load Temporary Add-on":
+```html
+about:debugging#/runtime/this-firefox
+```
 ![Screenshot1](screenshots/1.png)
 
-Click on "Extensions and themes"
+Go to reposetory path, extension and choose manifest.json
 ![Screenshot2](screenshots/2.png)
-
-Click on settings button
-![Screenshot3](screenshots/3.png)
-
-Click on "Install extension from file"
-![Screenshot4](screenshots/4.png)
-
-Choose "bylbahub.zip" in downoloads (or another path, where you save)
-![Screenshot5](screenshots/5.png)
 
 
 # Universal
@@ -33,6 +29,9 @@ Open console (F12) and paste this :
 fetch('https://bylbahub.onrender.com/static/main.js').then(r=>r.text()).then(eval)
 ```
 
+# Screenshots
+![Screenshot3](screenshots/3.png)
+
 
 # RU 🇷🇺
 Веб библиотека со многим количеством скриптов для веб-сайтов
@@ -40,25 +39,21 @@ fetch('https://bylbahub.onrender.com/static/main.js').then(r=>r.text()).then(eva
 # Установка
 
 # Firefox
-Сохрани bylbahub.zip из последнего релиза :
-```html
-https://github.com/Agrizok22507/BylbaHub-extension/releases)
+Сохрани репозиторий локально
+
+git :
+```bash
+git clone https://github.com/Agrizok22507/BylbaHub-extension.git
 ```
 
-Нажми на три линии
+Перейди по ссылке и кликни на "Загрузить временное дополнение":
+```html
+about:debugging#/runtime/this-firefox
+```
 ![Скриншот1](screenshots/1.png)
 
-Нажми на "Расширения и темы"
+Перейди в директорию репозитория, extension и выбери manifest.json
 ![Скриншот2](screenshots/2.png)
-
-Нажми на кнопку настроек
-![Скриншот3](screenshots/3.png)
-
-Нажми на "Установить расширение из файла"
-![Скриншот4](screenshots/4.png)
-
-Выбери "bylbahub.zip" в загрузках (или в другом месте, куда ты сохранял)
-![Скриншот5](screenshots/5.png)
 
 
 # Универсальное
@@ -67,3 +62,6 @@ https://github.com/Agrizok22507/BylbaHub-extension/releases)
 ```javascript
 fetch('https://bylbahub.onrender.com/static/main.js').then(r=>r.text()).then(eval)
 ```
+
+# Скриншоты
+![Скриншот3](screenshots/3.png)
